@@ -27,17 +27,21 @@ header {
     padding: 10px;
     border-radius: 0px 0px 30PX 30px;
     margin: auto;
+    background-image: linear-gradient(to bottom, black, rgb(46, 18, 18));
 
 }
 nav {
-    background-color: rgb(141, 132, 234);
+    width: 490PX;
     height: 50px;
-    color: #9698fc;
+    color: #ffffff;
     padding: 0.5px;
     margin: auto;
     border-radius: 20px;
-    box-shadow: 5px 5px 10px rgb(74, 70, 90);
-   
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    box-sizing: content-box; 
+    border: 2px solid rgb(50, 0, 0);  
+    background-image: linear-gradient(to bottom, black, rgb(46, 18, 18));
+
 
 }
 
@@ -49,18 +53,21 @@ a {
 }
 
 a:hover {
+    border-bottom: 2px solid rgb(255, 0, 0);
+    background-position: center;
     border-radius: 20px;
     padding: 10px;
     margin: auto;
+    box-shadow: 1px 1px 1px red;
 }
 
 a:visited {
-    color: rgb(17, 17, 17);
+    color: rgb(247, 214, 214);
 }
 
 a:active {
     color: #000000;
-    background-image: linear-gradient(to left, red, blue);
+    background-image: linear-gradient(to left,red,white));
 }
 
 h1 {
@@ -77,39 +84,45 @@ h2 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+iframe{
+    display: grid;
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    overflow: auto;
+}
+
 main {
     background-color: rgb(255, 255, 255);
     text-align: justify;
     text-indent: 30px;
     border-radius: 10px;
-    padding: 5px;
-    outline: 1px dotted red;
+    padding: 10px;
+    box-shadow: 1px 1px 5px black;
 }
-
-.soci {
-    display: inline-block;
+#soci {
     margin: auto;
-    width: 50px;
-    height: 50px;
-    border-radius: 30px;
-    border: 1px solid rgb(240, 240, 247);
-
+     gap: 20px ;
+     text-align: center;
 }
-
+#soci:hover{
+     border: #000000;
+}
 .elementos {
     display: inline-table;
     background-color: #a49494;
     color: #000000;
-    margin: 10px;
-    width: 275px;
-    height: 400px;
+    margin: 47px;
+    width: 450px;
+    height: 250px;
     border-radius: 25px;
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
 
 }
 .elementos:hover{
-    background-image: linear-gradient(to top, white, blue);
     font-size: 18px;
+    background-image: linear-gradient(to top,white,rgb(35, 34, 34));
+    color: white;
 }
 .article {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -120,39 +133,52 @@ main {
 }
 
 .servicos {
-    background-color: #000000;
-    color: #ffffff;
-    height: 200px;
-    width: 240px;
-    border-radius: 25px;
-    box-shadow: #000000;
-    padding: 12px;
-    display: inline-block;
-    margin: 10px;
-    text-align: center;
+background-color: #ffffff;
+color: #090606;
+height: 200px;
+width: 250px;
+border-radius: 25px;
+box-shadow: #ffffff;
+padding: 12px;
+display: inline-block;
+margin: 10px;
+text-align: center;
+box-shadow: 0px 0px 10px rgb(0, 0, 0);
+gap: 90px;
+
 
 }
-
 .descri {
-    background-color: rgb(0, 0, 0);
-    color: white;
+    background-color: white;
     border-radius: 15px;
 
 }
 .descri2{
-    background-color: #a49494;
-    color: #a49494;
-    height: 300px;
+    background-color: #ffffff;
+    color: #000000;
+    height: 200px;
     padding: 5px;
     font-size: 13.5px;
     border-radius: 15px;
+    margin: auto;
+    width: 97%;
+    opacity: 0;
+    animation: aparecer 5s forwards;
+    
+}
+@keyframes aparecer{
+    to{
+        opacity: 1;
+    }
 }
 .descri2:hover{
     color: #000000;
-    background-color: #ffffff;
+    background-color: #fffafa;
+    box-shadow: 1px 1px 10px black;
+    
 }
 .servicos:hover {
-    background-color: #0f0e0e;
+    background-color: #dadada;
 }
 
 footer {
@@ -161,5 +187,6 @@ footer {
     text-align: center;
     padding: 5px;
     border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(34, 8, 8);
 }
 
