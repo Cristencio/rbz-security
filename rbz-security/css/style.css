@@ -1,11 +1,5 @@
-
-
 body {
     background-color: rgb(108, 107, 107);
-    height: auto;
-    width:  98%;
-    margin: auto;
-    padding: 10px;
 }
 
 ul {}
@@ -34,21 +28,22 @@ header {
     padding: 10px;
     border-radius: 0px 0px 30PX 30px;
     margin: auto;
-    position: static;
     background-image: linear-gradient(to bottom, black, rgb(46, 18, 18));
 
 }
-nav { 
-    width: 490px;
+nav {
+    width: 490PX;
     height: 50px;
     color: #ffffff;
-    margin: auto;
     padding: 0.5px;
+    margin: auto;
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
     box-sizing: content-box; 
     border: 2px solid rgb(50, 0, 0);  
     background-image: linear-gradient(to bottom, black, rgb(46, 18, 18));
+
+
 }
 
 a {
@@ -101,7 +96,6 @@ iframe{
 main {
     background-color: rgb(255, 255, 255);
     text-align: justify;
-    place-items: center;
     text-indent: 30px;
     border-radius: 10px;
     padding: 10px;
