@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   --bg: #0b1220;
   --card: #131d31;
@@ -16,6 +17,16 @@ body {
   font-family: Inter, Segoe UI, Roboto, Arial, sans-serif;
   background: radial-gradient(circle at top right, #1d335c, var(--bg) 60%);
   color: var(--text);
+=======
+
+
+body {
+    background-color: rgb(108, 107, 107);
+    height: auto;
+    width:  98%;
+    margin: auto;
+    padding: 10px;
+>>>>>>> 6c9fcee18a861d23d2690abe68314157aa9039bf
 }
 
 .container {
@@ -31,12 +42,38 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+<<<<<<< HEAD
 .topbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
   padding: 0.8rem 0;
+=======
+header {
+    height: 200px;
+    width: 98%;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 0px 0px 30PX 30px;
+    margin: auto;
+    position: static;
+    background-image: linear-gradient(to bottom, black, rgb(46, 18, 18));
+
+}
+nav { 
+    width: 490px;
+    height: 50px;
+    color: #ffffff;
+    margin: auto;
+    padding: 0.5px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    box-sizing: content-box; 
+    border: 2px solid rgb(50, 0, 0);  
+    background-image: linear-gradient(to bottom, black, rgb(46, 18, 18));
+>>>>>>> 6c9fcee18a861d23d2690abe68314157aa9039bf
 }
 
 .brand {
@@ -150,11 +187,53 @@ h1 {
   gap: 1rem;
 }
 
+<<<<<<< HEAD
 .card {
   background: linear-gradient(145deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 16px;
   padding: 1rem;
+=======
+main {
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    place-items: center;
+    text-indent: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+#soci {
+    margin: auto;
+     gap: 20px ;
+     text-align: center;
+}
+#soci:hover{
+     border: #000000;
+}
+.elementos {
+    display: inline-table;
+    background-color: #a49494;
+    color: #000000;
+    margin: 47px;
+    width: 450px;
+    height: 250px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+
+}
+.elementos:hover{
+    font-size: 18px;
+    background-image: linear-gradient(to top,white,rgb(35, 34, 34));
+    color: white;
+}
+.article {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 30px
+>>>>>>> 6c9fcee18a861d23d2690abe68314157aa9039bf
 }
 
 .socials {
